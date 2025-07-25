@@ -1,0 +1,48 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Téléchargements et fichiers temporaires
+downloads/
+temp/
+*.cbz
+*.zip
+
+# Logs et debugging
+*.log
+debug.log
+
+# Configuration locale
+.env
+.env.local
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers Replit
+.replit.nix
+.upm/
+
+# Assets temporaires
+attached_assets/
+page_content.html
+episodes.js
+
+# Fichiers de documentation avec tokens (supprimés)
+*TOKEN*.md
+*SECRET*.md
+GIT_SETUP*.md
+setup_instruction*.md

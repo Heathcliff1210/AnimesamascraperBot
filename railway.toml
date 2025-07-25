@@ -1,0 +1,15 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "always"
+
+[env]
+# Environment flag to indicate Railway deployment
+RAILWAY_ENVIRONMENT = "true"
+# Python unbuffered output for better logging
+PYTHONUNBUFFERED = "1"
+# Disable pip cache to reduce memory usage
+PIP_NO_CACHE_DIR = "1"
